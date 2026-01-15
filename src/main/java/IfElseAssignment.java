@@ -1,17 +1,21 @@
 import java.util.Scanner;
 
 public class IfElseAssignment {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
-        while (true) {
+        while (true)
+        {
             System.out.println("Enter no between 1-12:");
             int month = sc.nextInt();
-            if (month == 0) {
+            if (month == 0)
+            {
                 break;
 
             }
             int days;
-            switch (month) {
+            switch (month)
+            {
                 case 1:
                 case 3:
                 case 5:
