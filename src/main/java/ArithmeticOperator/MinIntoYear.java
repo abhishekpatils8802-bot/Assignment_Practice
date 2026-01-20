@@ -23,6 +23,5 @@ public class MinIntoYear {
                 System.out.println("Invalid output");
                 System.out.println("Invalid output");
             }
-            sc.close();
         }
     }
